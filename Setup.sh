@@ -1,3 +1,14 @@
+# This script is meant to setup and
+# automatically configure my i3
+# and other program settings. It is
+# pretty straight forward, it
+# takes a username as an argument.
+# Just pass the user which you
+# intent to use the configs for
+# and it will clone a git repo,
+# and copy over files. Make
+# sure to run as root.
+
 #!/bin/bash
 
 # Install basic packages
