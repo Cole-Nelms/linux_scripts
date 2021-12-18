@@ -32,23 +32,21 @@ mkdir -p /home/$1/Pictures/
 # cd into user home
 echo "cd /home/$1/"
 cd /home/$1/
+echo ""
 
 # Copy the repo config files into the config directories
-echo "cp $2/Gruvbox/Standard/Bash/.bashrc ./"
-cp $2/Gruvbox/Standard/Bash/.bashrc ./
+echo "cp $2/Gruvbox/Minimal/Bash/.bashrc ./"
+cp $2/Gruvbox/Minimal/Bash/.bashrc ./
 
-echo "cp $2/Gruvbox/Standard/I3/config ./.config/i3/"
-cp $2/Gruvbox/Standard/I3/config ./.config/i3/
+echo "cp $2/Gruvbox/Minimal/I3/config ./.config/i3/"
+cp $2/Gruvbox/Minimal/I3/config ./.config/i3/
 
-echo "cp $2/Gruvbox/Standard/Kitty/kitty.conf ./.config/kitty/"
-cp $2/Gruvbox/Standard/Kitty/kitty.conf ./.config/kitty/
+echo "cp $2/Gruvbox/Minimal/Kitty/kitty.conf ./.config/kitty/"
+cp $2/Gruvbox/Minimal/Kitty/kitty.conf ./.config/kitty/
 
-echo "cp $2/Gruvbox/Standard/Compton/compton.conf ./.config/"
-cp $2/Gruvbox/Standard/Compton/compton.conf ./.config/
+echo "cp $2/Gruvbox/Minimal/Vim/.vimrc ./"
+cp $2/Gruvbox/Minimal/Vim/.vimrc ./
 
-echo "cp $2/Gruvbox/Standard/Vim/.vimrc ./"
-cp $2/Gruvbox/Standard/Vim/.vimrc ./
-
-echo "cp $2/Gruvbox/Standard/Walpaper/walpaper.jpg ./Pictures/"
-cp $2/Gruvbox/Standard/Walpaper/walpaper.jpg ./Pictures/
+echo "cp $2/Gruvbox/Minimal/Walpaper/walpaper.jpg ./Pictures/"
+cp $2/Gruvbox/Minimal/Walpaper/walpaper.jpg ./Pictures/
 

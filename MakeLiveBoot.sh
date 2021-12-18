@@ -6,9 +6,9 @@
 # accepts a path to the iso
 # file. The second Argument
 # accepts a path to the media
-# drive, (example: '/dev/sdb').
-# I have only tried it
-# on a usb drive with debian.
+# drive, (example: '/dev/sda').
+# I have tried it on
+# multiple usb, and sd drives.
 # tweaks and changes may be
 # needed for other systems
 # and/or media drives.
