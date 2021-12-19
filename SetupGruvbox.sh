@@ -32,6 +32,7 @@ mkdir -p /home/$1/Pictures/
 # cd into user home
 echo "cd /home/$1/"
 cd /home/$1/
+echo ""
 
 # Copy the repo config files into the config directories
 echo "cp $2/Gruvbox/Standard/Bash/.bashrc ./"
