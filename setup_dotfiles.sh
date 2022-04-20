@@ -68,8 +68,8 @@ cp .vimrc ~/
 echo "cp i3/config ~/.config/i3/"
 cp i3/config ~/.config/i3/
 
-echo "cp kitty/kitty.conf ~/.config/kitty/"
-cp kitty/kitty.conf ~/.config/kitty/
+echo "cp kitty.conf ~/.config/kitty/"
+cp kitty.conf ~/.config/kitty/
 
 echo "cp walpaper.jpg ~/Pictures/"
 cp walpaper.jpg ~/Pictures/
